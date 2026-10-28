@@ -1,0 +1,62 @@
+{
+ "name": "Peso Plan",
+ "short_name": "Peso Plan",
+ "description": "Personal budget and money manager",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#0A0A0A",
+ "theme_color": "#0A0A0A",
+ "icons": [
+  {
+   "src": "icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any maskable"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any maskable"
+  }
+ ],
+ "shortcuts": [
+  {
+   "name": "Add expense",
+   "short_name": "Add expense",
+   "url": "./index.html?add=expense",
+   "icons": [
+    {
+     "src": "icon-192.png",
+     "sizes": "192x192",
+     "type": "image/png"
+    }
+   ]
+  },
+  {
+   "name": "Add income",
+   "short_name": "Add income",
+   "url": "./index.html?add=income",
+   "icons": [
+    {
+     "src": "icon-192.png",
+     "sizes": "192x192",
+     "type": "image/png"
+    }
+   ]
+  },
+  {
+   "name": "Transfer",
+   "short_name": "Transfer",
+   "url": "./index.html?add=transfer",
+   "icons": [
+    {
+     "src": "icon-192.png",
+     "sizes": "192x192",
+     "type": "image/png"
+    }
+   ]
+  }
+ ]
+}
